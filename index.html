@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="web.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!----navbar---->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo2.jpeg" alt="" width="100" height="100" class="d-inline-block align-text-top" id="img">
+        <h1 id="h1">Ottaman's Turkish</h1>
+        <h1 id="h2">Baklava & Kunafa</h1>
+      </a>
+      
+      <button class="navbar-toggler" type="button" 
+       data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+       aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item" >
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item" onclick="about()">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item" onclick="product()">
+            <a class="nav-link" href="#prod">Product</a>
+          </li>
+          <li class="nav-item" onclick="contact()">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+          <button class="btn p-2 my-lg-0 my-2">Reservation</button>
+      </div>
+    </div>
+  </nav>
+
+
+  <!----home---->
+
+    <section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="home1.webp" class="d-block w-100 imgsize" alt="first">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="h5">BAKLAVA</h5>
+              <p id="p">Baklava is a traditional pastry dessert that is known for its sweet, rich flavor and flaky texture</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="home2.webp" class="d-block w-100 imgsize" alt="first">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="h5">BAKLAVA</h5>
+              <p id="p">Baklava is a traditional pastry dessert that is known for its sweet, rich flavor and flaky texture</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="home4.jpg" class="d-block w-100 imgsize" alt="first">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="h5">BAKLAVA</h5>
+              <p id="p">Baklava is a traditional pastry dessert that is known for its sweet, rich flavor and flaky texture</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!----about---->
+
+        <section id="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 p-lg-5">
+              <img src="home3.jpg" class="img-fluid" style="border-radius:5px; margin-top:75px;">              
+            </div>
+          
+            <div class="col-lg-6 col-md-6 col-12 p-lg-4">
+              <h1 id="head">ABOUT US</h1>
+              <P id="para">Baklava Ottoman Turkish is a layered pastry dessert made of filo 
+                pastry, filled with chopped nuts, and sweetened with syrup or honey.
+                 It was one of the most popular sweet pastries of Ottoman cuisine.
+                The pre-Ottoman origin of the dish is unknown, but, in modern times,
+                 it is a common dessert of Turkish, Iranian and Arab cuisines, 
+                 and other countries of the Levant and Maghreb, along with the 
+                 South Caucasus, Balkans, Somalia and Central Asia.Although the 
+                 history of baklava is not well documented, its current form was probably 
+                  developed in the imperial kitchens of the Topkap Palace in Constantinople 
+                  (modern Istanbul).The Sultan presented trays of baklava to the Janissaries 
+                  every 15th of the month of Ramadan in a ceremonial procession called the 
+                  Baklava Alay
+
+                 The three main proposals for the pre-Ottoman roots of baklava are the Ancient 
+                 Roman placenta cake,the Central Asian Turkic tradition of layered
+                  desserts,and the lauzinaj.There are also claims attributing
+                   baklava to the Assyrians, according to which baklava was already prepared 
+                   by them in the 8th century BC</P>
+            </div>       
+
+          </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!----product---->
+
+      <section id="prod">
+        <div class="container pb-4  ms-5 me-5">
+          <h1 class="text-center mb-5">OUR PRODUCTS</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro1.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pistachio Baklava</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro2.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Dessert Baklava</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro3.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Baklava Sweet Rolls</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro4.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Cashew Kunafa</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro5.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pista Kunafa</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro6.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Regular kunafa</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro7.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Turkish Delight Brownies</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro8.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Turkish Coffee</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="pro9.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Baklava With Ice Cream</h5>
+                  <a href="#" class="btn btn-danger">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----contact---->
+
+      <section id="contact">
+        <h1 class="text-center mb-5 mt-0 pt-5">CONTACT US</h1>
+        <div class="container  mt-0">
+          <div class="row">
+            <div class="col-lg-7 col-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.
+              6101685095955!2d80.24757827473613!3d13.
+              06046778726313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+              1!3m3!1m2!1s0x3a5267acc1b26b7b%3A0x1b5f818f60f8c527!2sOttoman%E2%80%99s%20Turkish%20Baklava%20%26%20K%C3%BCnefe!5e0!3m2!1sen!2sin!4v1684388156143!5m2!1sen!2sin" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <h4>Contact</h4>
+                <ul>
+    
+                  <li><a href=""> <i class="fa-solid fa-mobile-screen"></i> Cell: +91-8111066021</a></li>
+    
+                  <li><a href=""><i class="fa-sharp fa-solid fa-envelope"></i> ahamedharis2001@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-5 col-12">
+              <form>
+                <div class="mb-3">
+                  <label>Username</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label>Email Address</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label>Enter Your Message</label>
+                  <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <button class="btn btn-danger">Send a Message</button>
+              </form>
+              <h3 class="h4">Follow as</h3>
+              <div class="sociallink">
+            
+                <a href=""><i class="fab fa-facebook-f ic"></i></a>
+                <a href=""><i class="fab fa-twitter ic"></i></a>
+                <a href=""><i class="fab fa-instagram ic "></i></a>
+                <a href=""><i class="fab fa-linkedin-in ic"></i></a>
+                <a href=""><i class="fab fa-youtube ic"></i></a>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---footer-->
+      <footer class="section" id="footer">
+        <p class="m-0 p-1">
+          Copyright &copy; Ottaman's Turkish
+          <span id="date">2023</span>
+          .all right reserved
+        </p>
+      </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+
+<!-- <script>
+  window.addEventListener("scroll", function () {
+  const scrollHeight = window.pageYOffset;
+  console.log(scrollHeight)
+})
+  const about=()=>{
+    console.log('about')
+    window.scrollTo({
+      left: 0,
+      top:640 ,
+    });
+  }
+  const product=()=>{
+    console.log('product')
+    window.scrollTo({
+      left: 0,
+      top: 1246,
+    });
+  }
+  const contact=()=>{
+    console.log('contact')
+    window.scrollTo({
+      left: 0,
+      top: 2823,
+    });
+  }
+</script> -->
+  
+</body>
+</html>
